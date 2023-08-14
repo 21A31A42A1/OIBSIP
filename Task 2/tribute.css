@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&family=Dancing+Script:wght@600&family=Shadows+Into+Light&display=swap');
+
+.hfont{
+    font-family: 'Dancing Script';
+    text-align: center;
+    background-color: #99E2C8;
+    padding: 10px;
+}
+h1{
+    font-size: 45px;
+    font-family: 'Dancing Script';
+}
+h3{
+    font-size:30px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;    
+    font-family: Shadows Into Light;
+    background-color: rgb(46, 138, 46);
+    color: aliceblue;
+}
+p{
+    font-size: 25px;    
+    font-family: Shadows Into Light;
+    background-color: #99E2C8;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+.colors{
+    background-color: rgb(46, 138, 46);
+    color: aliceblue;
+    }
+.jumpto{
+    font-family: Shadows Into Light;
+    font-size: 25px;
+    background-color: #99E2C8;
+}
+.typed-out{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: 
+    typing 1s steps(20, end) forwards;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
