@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppons', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(180deg, white, rgb(73, 73, 215));
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+h1{
+    padding: 100px 280px;
+    font-size: 50px;
+}
+.logreg{
+    padding: 0px 450px;
+}
+button{
+    background: black;
+    color: grey;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.login{
+    margin-left: 30px;
+    padding: 11px 67px;
+    margin-top: 20px;
+}
+.register{
+    margin-left: 30px;
+    padding: 11px 55px;
+    margin-top: 20px;
+}
+a{
+    color: aliceblue;
+}
+.welcome{
+    color: aliceblue;
+    padding-top: 0;
+}
+.logout{
+    padding: 0px 10px;
+    margin-left: 1000px;
+}
+.logout:hover{
+    background: white;
+}

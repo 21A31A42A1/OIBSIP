@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppons', sans-serif;
+    
+}
+body{
+    background: linear-gradient(180deg, white, rgb(73, 73, 215));
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-size: 100%;
+}
+h1{
+    padding: 50px 260px;
+    font-size: 50px;
+}
+h2{
+    padding: 0px 600px;
+    align-items: center;
+}
+.register{
+    padding: 20px 500px;
+
+}
+.register input{
+        block-size: 5cqb;
+        width: 300px;
+}
+.regbutton{
+    padding: 7px 40px;
+    background-color: rgb(223, 217, 217);
+    margin-top: 20px;
+    margin-left: 580px;
+}
+.login a{
+    color: white;
+}
+.login{
+    font-size: 20px;
+}
