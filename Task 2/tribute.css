@@ -3,27 +3,28 @@
 .hfont{
     font-family: 'Dancing Script';
     text-align: center;
-    background-color: #99E2C8;
-    padding: 10px;
+    background-color: #77DD77;
+    padding: 0px;
 }
 h1{
-    font-size: 45px;
+    font-size: 70px;
     font-family: 'Dancing Script';
 }
 h3{
-    font-size:30px;
+    font-size:90px;
 }
 h2{
     font-size: 30px;
     text-align: center;    
     font-family: Shadows Into Light;
-    background-color: rgb(46, 138, 46);
+    background-color: black;
     color: aliceblue;
 }
 p{
     font-size: 25px;    
     font-family: Shadows Into Light;
-    background-color: #99E2C8;
+    background-color: #Ffff99;
+    color: saddlebrown;
 }
 .center {
     display: block;
@@ -32,13 +33,12 @@ p{
     width: 50%;
     }
 .colors{
-    background-color: rgb(46, 138, 46);
-    color: aliceblue;
+    color: rgb(14, 7, 7);
     }
 .jumpto{
     font-family: Shadows Into Light;
     font-size: 25px;
-    background-color: #99E2C8;
+    background-color: #77DD77;
 }
 .typed-out{
     overflow: hidden;
@@ -51,4 +51,6 @@ p{
     from { width: 0 }
     to { width: 100% }
   }
-  
+body{
+    background-image: url('backgroung.jpg');
+}
